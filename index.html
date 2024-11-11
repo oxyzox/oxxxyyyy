@@ -1,0 +1,226 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/components/prism-javascript.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism-tomorrow.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <title>oxyzox</title>
+</head>
+<body>
+    <button class="mobile-nav-toggle">
+        <i class="fas fa-bars"></i>
+    </button>
+
+    <div class="progress-indicator"></div>
+
+    <aside class="sidebar">
+        <div class="sidebar-header">
+            <div class="avatar-container">
+                <img src="oxyyzzz.png" alt="Avatar 1" class="avatar avatar1">
+                <img src="makda.jpg" alt="Avatar 2" class="avatar avatar2">
+            </div>
+            <h2>oxyzox</h2>
+            <p>Full Stack Developer</p>
+        </div>
+        <nav>
+            <div class="nav-group">
+                <div class="nav-title">Navigation</div>
+                <ul class="nav-items">
+                    <li class="nav-item active" data-section="intro">
+                        <i class="fas fa-home"></i> Introduction
+                    </li>
+                    <li class="nav-item" data-section="skills">
+                        <i class="fas fa-code"></i> Skills
+                    </li>
+                    <li class="nav-item" data-section="experience"> 
+                        <i class="fas fa-briefcase"></i> Experience
+                    </li>
+                    <li class="nav-item" data-section="projects">
+                        <i class="fas fa-project-diagram"></i> Projects
+                    </li>
+                </ul>
+            </div>
+            <div class="nav-group">
+                <div class="nav-title">Contact</div>
+                <ul class="nav-items">
+                    <li class="nav-item" onclick="window.open('https://github.com/oxyzox', '_blank')">
+                        <i class="fab fa-github"></i> GitHub
+                    </li>
+                    <li class="nav-item" onclick="window.open('https://www.instagram.com/oxyzox.exe/m', '_blank')">
+                        <i class="fa-brands fa-instagram"></i> Instagram
+                    </li>
+                </ul>
+                
+        </nav>
+    </aside>
+
+    <main class="content">
+        <section id="intro" class="section">
+            <span class="tag">v1.0.0</span>
+            <h1>Oxyzox Portfolio</h1>
+            <p>Full Stack Developer. Passionate about coding and problem-solving.</p>
+            
+            <div class="terminal">
+                <p><span class="prompt">$</span> <span class="command">whoami</span></p>
+                <p>→ Full Stack Developer</p>
+                <p><span class="prompt">$</span> <span class="command">location</span></p>
+                <p>→ Nepal</p>
+                <p><span class="prompt">$</span> <span class="command">status</span></p>
+                <p>→ Available for exciting projects</p>
+            </div>
+        </section>
+
+        <section id="skills" class="section">
+            <h2>Technical Skills</h2>
+            
+            <div class="skill-group">
+                <h3>Frontend Development</h3>
+                <div class="code-header">
+                    <span>technologies.js</span>
+                </div>
+                <pre><code class="language-javascript">
+const frontendSkills = {
+    languages: ['JavaScript', 'Python', 'HTML5', 'CSS3'],
+    frameworks: ['React'],
+    styling: ['Tailwind CSS', 'Bootstrap', 'Styled Components'],
+    tools: ['Figma', 'V0']
+};</code></pre>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 90%"></div>
+                </div>
+            </div>
+
+            <div class="skill-group">
+                <h3>Backend Development</h3>
+                <div class="code-header">
+                    <span>backend.js</span>
+                </div>
+                <pre><code class="language-javascript">
+const backendSkills = {
+    languages: ['Node.js', 'Python'],
+    frameworks: ['Express'],
+    databases: ['MongoDB'],
+    cloud: ['AWS', 'Google Cloud', 'Heroku']
+};</code></pre>
+                <div class="skill-bar">
+                    <div class="skill-progress" style="width: 85%"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section id="experience" class="section">
+            <h2>Experience</h2>
+            <div class="code-header">
+                <span>experience.json</span>
+            </div>
+            <pre><code class="language-javascript">
+{
+    "current": {
+        "role": "Developer",
+        "company": "Tech Company",
+        "period": "2024 - Present",
+        "highlights": [
+            "",
+            "Implemented microservices architecture",
+            "Reduced loading time by 40%"
+        ]
+    },
+    "previous": [
+        {
+            "role": "Frontend Developer",
+            "company": "Digital Agency",
+            "period": "2018 - 2020",
+            "highlights": [
+                "Built responsive web applications",
+                "Implemented CI/CD pipelines",
+                "Mentored junior developers"
+            ]
+        }
+    ]
+}</code></pre> -->
+        </section>
+        </section>
+
+        <section id="projects" class="section">
+            <h2>Projects</h2>
+    <div class="skill-group">
+        <h3>Poke-explorer </h3>
+        <div class="code-header">
+            <span>poke-explorer.js</span>
+        </div>
+        <pre><code class="language-javascript">
+const poke-explorerProject = {
+    name: 'poke-explorer',
+    tech_stack: {
+        frontend: ['HTML', 'CSS' , 'JavaScript'],
+        backend: ['PokéAPI'],
+        deployment: ['Github']
+    },
+    highlights: [
+        'Search for Pokémon',
+        'Random Pokémon generator',
+        'Responsive Design'
+    ],
+    github: 'https://github.com/oxyzox/poke-explorer',
+    live: 'https://oxyzox.github.io/poke-explorer/'
+};</code></pre>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 95%"></div>
+        </div>
+    </div>
+
+    <div class="skill-group">
+        <h3>MineCraft Server Status Bot</h3>
+        <div class="code-header">
+            <span>mcstatusbot.js</span>
+        </div>
+        <pre><code class="language-javascript">
+const mcstatusbot = {
+    name: 'McStatusBot',
+    tech_stack: {
+        Language: ['Python' , 'py-cord'],
+        backend: ['mcstatus.ioAPI'],
+    },
+    highlights: [
+        'Java & Bedrock Server Support',
+        'Live Player Count',
+        'Automatic Refresh'
+    ],
+    github: 'https://github.com/oxyzox/McStatusBotV2',
+};</code></pre>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 88%"></div>
+        </div>
+    </div>
+
+    <div class="skill-group">
+        <h3>ddosY - DDoS Attack Tool </h3>
+        <div class="code-header">
+            <span>ddosy.js</span>
+        </div>
+        <pre><code class="language-javascript">
+const ddosy = {
+    name: 'ddosY',
+    tech_stack: {
+        language: ['python']
+    },
+    highlights: [
+        'Multi-Threading Support',
+        'Customizable Fake IP',
+        'Real-Time Attack Status'
+    ],
+    github: 'https://github.com/oxyzox/ddosY',
+};</code></pre>
+        <div class="skill-bar">
+            <div class="skill-progress" style="width: 92%"></div>
+        </div>
+    </div>
+        </section>
+    </main>
+    <script src="app.js"></script>
+</body>
+</html>
